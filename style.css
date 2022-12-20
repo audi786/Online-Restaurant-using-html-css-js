@@ -1,0 +1,119 @@
+
+body {
+    background-image: url("/images/22.jpg");
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+
+  .carousel-control-next-icon{
+  
+      background-repeat: "no-repeat";
+      transition-timing-function:3s;
+     }
+
+
+  .img-fluid {
+      max-width: 100%;
+      height: auto;
+      border-radius:10px;
+  
+    }
+  
+    img:hover{
+  
+      border: 3px solid rgb(243, 8, 8);   
+    }
+    
+
+   .text-center{
+    margin-top: 150px;
+    /* font-style: italic; */
+   }
+
+  .text-up{
+    text-align: center;
+    
+  }
+
+  .fot_heig{
+  
+    height: 100px;
+     margin-top: 250px; 
+  }
+.content{
+  text-align: center;
+}
+
+.txt{
+  color: darkblue;
+}
+
+
+/* Text On Slider */
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: rgb(21, 15, 6);
+}
+.bottom- {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: rgb(237, 237, 237);
+}
+
+.pete{
+  font-size: larger;
+text-align: center;
+}
+
+
+
+/* Try */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(229, 250, 250);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  position:absolute;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.catego{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.card-body{
+text-align: center;
+font-size: larger;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.move{
+
+  margin-left: 25%;
+  }
+  
+  .bas{
+      margin-left: 33%;
+  }
